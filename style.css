@@ -6,6 +6,11 @@ body{
     line-height: 1.4;
     font-weight: 400;
     font-size: 20px;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    background-position: center;
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: no-repeat;
 }
 
 h1, p{
@@ -21,11 +26,12 @@ h1{
 p{
     font-size: 1.5rem;
     font-style: italic;
+    margin-top: -40px;
 }
 
 form{
     margin: 0 auto;
-    background-color: #1b1b32;
+    background-color: rgba(27, 27, 50, 0.5);
     max-width: 600px;
     min-width: 300px;
     color: #f6f7f8;
@@ -46,4 +52,32 @@ input, textarea, select{
     border: none;
     border-radius: 3px;
     font-size: 18px;
+}
+
+input, select{
+    height: 2.5em;
+}
+
+select{
+    height: 3rem;
+    border: none;
+}
+
+.inline{
+    width: unset;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0 0.5em 0 0;
+    width: 1.5rem;
+}
+
+input[type="submit"]{
+    color: #f6f7f8;
+    background-color: #37af65;
+    font-size: 18px;
+    border: 1px solid #37af65;
+    border: 3px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    height: 3rem;
 }
